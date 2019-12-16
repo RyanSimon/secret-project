@@ -4,26 +4,33 @@ body, html {
   height: 100%;
 }
 
-.nav {
-  height: 10%;
-  background-color: $placeholderRowOddColor;
-}
-
-.nav .row {
-  height: 100%;
-}
-
-.nav .logo {
-  background-color: $placeholderCol1Color;
-}
-
-.nav .links {
-  background-color: $placeholderCol2Color;
+.navigation {
+  text-align: center;
 }
 
 .hero {
-  background-color: $placeholderRowColor;
   height: 90%;
+  background-color: $placeholderRowColor;
+  background-image: url("../assets/hero-placeholder-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: center;
+
+  .row {
+    height: 100%;
+
+    .col {
+      height: 100%;
+    }
+  }
+
+  .start-cta {
+    background-color: $primaryColor;
+    color: #FFF;
+    vertical-align: bottom;
+    margin-bottom: 10vh;
+  }
 }
 
 .about-us {
@@ -33,20 +40,20 @@ body, html {
 
 .our-process {
   height: 100%;
-}
 
-.our-process .row {
-  height: 100%;
-}
+  .row {
+    height: 100%;
+  }
 
-.our-process .left {
-  height: 100%;
-  background-color: $placeholderCol1Color;
-}
+  .left {
+    height: 100%;
+    background-color: $placeholderCol1Color;
+  }
 
-.our-process .right {
-  height: 100%;
-  background-color: $placeholderCol2Color;
+  .right {
+    height: 100%;
+    background-color: $placeholderCol2Color;
+  }
 }
 
 .growth {
@@ -62,20 +69,20 @@ body, html {
 .contact-us {
   height: 30%;
   background-color: $placeholderRowColor;
-}
 
-.contact-us .row {
-  height: 100%;
-}
+  .row {
+    height: 100%;
+  }
 
-.contact-us .contact {
-  height: 100%;
-  background-color: $placeholderCol1Color;
-}
+  .contact {
+    height: 100%;
+    background-color: $placeholderCol1Color;
+  }
 
-.contact-us .social {
-  height: 100%;
-  background-color: $placeholderCol2Color;
+  .social {
+    height: 100%;
+    background-color: $placeholderCol2Color;
+  }
 }
 
 .footer {

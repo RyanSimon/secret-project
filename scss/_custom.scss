@@ -1,0 +1,12 @@
+$mainFontFamily: 'Rubik', sans-serif;
+
+body {
+  font-family: $mainFontFamily;
+}
+
+.btn {
+  border-radius: 2rem;
+  text-transform: uppercase;
+  padding: 0.60rem 1.25rem;
+  font-size: 0.75rem;
+}

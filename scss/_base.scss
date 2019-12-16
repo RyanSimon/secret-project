@@ -1,3 +1,5 @@
+@import "custom";
+
 $primaryColor: #CA3D3D;
 $placeholderRowColor: pink;
 $placeholderRowOddColor: blue;
@@ -7,4 +9,10 @@ $pageBackgroundColor: #FFF;
 
 .body {
   background-color: $pageBackgroundColor;
+}
+
+.vertical-align-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
