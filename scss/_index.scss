@@ -1,0 +1,84 @@
+@import "base";
+
+body, html {
+  height: 100%;
+}
+
+.nav {
+  height: 10%;
+  background-color: $placeholderRowOddColor;
+}
+
+.nav .row {
+  height: 100%;
+}
+
+.nav .logo {
+  background-color: $placeholderCol1Color;
+}
+
+.nav .links {
+  background-color: $placeholderCol2Color;
+}
+
+.hero {
+  background-color: $placeholderRowColor;
+  height: 90%;
+}
+
+.about-us {
+  background-color: $placeholderRowOddColor;
+  height: 100%;
+}
+
+.our-process {
+  height: 100%;
+}
+
+.our-process .row {
+  height: 100%;
+}
+
+.our-process .left {
+  height: 100%;
+  background-color: $placeholderCol1Color;
+}
+
+.our-process .right {
+  height: 100%;
+  background-color: $placeholderCol2Color;
+}
+
+.growth {
+  height: 50%;
+  background-color: $placeholderRowColor;
+}
+
+.case-studies {
+  height: 100%;
+  background-color: $placeholderRowOddColor;
+}
+
+.contact-us {
+  height: 30%;
+  background-color: $placeholderRowColor;
+}
+
+.contact-us .row {
+  height: 100%;
+}
+
+.contact-us .contact {
+  height: 100%;
+  background-color: $placeholderCol1Color;
+}
+
+.contact-us .social {
+  height: 100%;
+  background-color: $placeholderCol2Color;
+}
+
+.footer {
+  height: 10%;
+  background-color: $placeholderRowOddColor;
+}

@@ -1,0 +1,71 @@
+.body {
+  background-color: #FFF; }
+
+.body {
+  background-color: #FFF; }
+
+body, html {
+  height: 100%; }
+
+.nav {
+  height: 10%;
+  background-color: blue; }
+
+.nav .row {
+  height: 100%; }
+
+.nav .logo {
+  background-color: red; }
+
+.nav .links {
+  background-color: green; }
+
+.hero {
+  background-color: pink;
+  height: 90%; }
+
+.about-us {
+  background-color: blue;
+  height: 100%; }
+
+.our-process {
+  height: 100%; }
+
+.our-process .row {
+  height: 100%; }
+
+.our-process .left {
+  height: 100%;
+  background-color: red; }
+
+.our-process .right {
+  height: 100%;
+  background-color: green; }
+
+.growth {
+  height: 50%;
+  background-color: pink; }
+
+.case-studies {
+  height: 100%;
+  background-color: blue; }
+
+.contact-us {
+  height: 30%;
+  background-color: pink; }
+
+.contact-us .row {
+  height: 100%; }
+
+.contact-us .contact {
+  height: 100%;
+  background-color: red; }
+
+.contact-us .social {
+  height: 100%;
+  background-color: green; }
+
+.footer {
+  height: 10%;
+  background-color: blue; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvX2Jhc2Uuc2NzcyIsIi4uL3Njc3MvX2luZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT0E7RUFDRSxzQkFId0IsRUFBQTs7QUFFMUI7RUFDRSxzQkFId0IsRUFBQTs7QUNIMUI7RUFDRSxZQUFZLEVBQUE7O0FBR2Q7RUFDRSxXQUFXO0VBQ1gsc0JETjJCLEVBQUE7O0FDUzdCO0VBQ0UsWUFBWSxFQUFBOztBQUdkO0VBQ0UscUJEYndCLEVBQUE7O0FDZ0IxQjtFQUNFLHVCRGhCMEIsRUFBQTs7QUNtQjVCO0VBQ0Usc0JEdkJ3QjtFQ3dCeEIsV0FBVyxFQUFBOztBQUdiO0VBQ0Usc0JEM0IyQjtFQzRCM0IsWUFBWSxFQUFBOztBQUdkO0VBQ0UsWUFBWSxFQUFBOztBQUdkO0VBQ0UsWUFBWSxFQUFBOztBQUdkO0VBQ0UsWUFBWTtFQUNaLHFCRHhDd0IsRUFBQTs7QUMyQzFCO0VBQ0UsWUFBWTtFQUNaLHVCRDVDMEIsRUFBQTs7QUMrQzVCO0VBQ0UsV0FBVztFQUNYLHNCRHBEd0IsRUFBQTs7QUN1RDFCO0VBQ0UsWUFBWTtFQUNaLHNCRHhEMkIsRUFBQTs7QUMyRDdCO0VBQ0UsV0FBVztFQUNYLHNCRDlEd0IsRUFBQTs7QUNpRTFCO0VBQ0UsWUFBWSxFQUFBOztBQUdkO0VBQ0UsWUFBWTtFQUNaLHFCRHJFd0IsRUFBQTs7QUN3RTFCO0VBQ0UsWUFBWTtFQUNaLHVCRHpFMEIsRUFBQTs7QUM0RTVCO0VBQ0UsV0FBVztFQUNYLHNCRGhGMkIsRUFBQSIsImZpbGUiOiJtYWluLmNzcyJ9 */
