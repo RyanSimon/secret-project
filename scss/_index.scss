@@ -45,20 +45,32 @@ body, html {
 }
 
 .our-process {
-  height: 100%;
-
-  .row {
-    height: 100%;
-  }
-
-  .left {
-    height: 100%;
-    background-color: $placeholderCol1Color;
-  }
 
   .right {
-    height: 100%;
-    background-color: $placeholderCol2Color;
+    background-color: $primaryColor;
+
+    .process-item {
+      margin-bottom: 3rem;
+
+      .process-icon {
+        margin-top: 0.75rem;
+        text-align: right;
+      }
+
+      .process-desc {
+        color: #FFF;
+
+        .process-item-title {
+          text-transform: capitalize;
+          font-size: 2rem;
+          font-weight: $font-weight-light;
+        }
+      }
+    }
+
+    .process-item:first-of-type {
+      margin-top: 3em;
+    }
   }
 }
 
