@@ -75,8 +75,11 @@ body, html {
 }
 
 .growth {
-  height: 50%;
-  background-color: $placeholderRowColor;
+  background-image: url("../assets/hero-placeholder-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: center;
 }
 
 .case-studies {
