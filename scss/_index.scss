@@ -135,6 +135,10 @@ body {
 
   .contact {
 
+    p {
+      margin: 0;
+    }
+
     a {
       color: #FFF;
       border-bottom: solid 1px #FFF;
@@ -156,5 +160,11 @@ body {
 
 .footer {
   height: 10%;
-  background-color: $placeholderRowOddColor;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
 }
