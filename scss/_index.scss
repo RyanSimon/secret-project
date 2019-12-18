@@ -8,8 +8,26 @@ body {
   color: #000;
 }
 
-.navigation {
-  text-align: center;
+.navbar {
+  a {
+    color: #000 !important;
+  }
+
+  a:hover {
+    color: $primaryColor !important;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .phone {
+    color: $primaryColor !important;
+
+    img {
+      margin-right: 0.2rem;
+    }
+  }
 }
 
 .hero {
