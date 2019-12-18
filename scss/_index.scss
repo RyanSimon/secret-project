@@ -4,6 +4,10 @@ body, html {
   height: 100%;
 }
 
+body {
+  color: #000;
+}
+
 .navigation {
   text-align: center;
 }
@@ -83,8 +87,40 @@ body, html {
 }
 
 .case-studies {
-  height: 100%;
-  background-color: $placeholderRowOddColor;
+
+  .case-studies-intro {
+    text-align: center;
+  }
+
+  .case-studies-items {
+
+    .case-studies-item {
+      margin-bottom: 4rem;
+
+      .case-study-img {
+        width: 160px;
+        height: 160px;
+        background-color: grey;
+      }
+
+      .case-study-desc {
+
+        .case-study-title {
+          font-size: 2rem;
+          font-weight: $font-weight-light;
+        }
+
+        a {
+          color: $primaryColor;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .case-studies-item:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .contact-us {
