@@ -124,21 +124,33 @@ body {
 }
 
 .contact-us {
-  height: 30%;
-  background-color: $placeholderRowColor;
+  height: 40%;
+  background-color: $primaryColor;
+  color: #FFF;
 
-  .row {
-    height: 100%;
+  .header2 {
+    color: #FFF;
+    margin-bottom: 1.5rem;
   }
 
   .contact {
-    height: 100%;
-    background-color: $placeholderCol1Color;
+
+    a {
+      color: #FFF;
+      border-bottom: solid 1px #FFF;
+      padding-bottom: 0.05rem;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
   }
 
   .social {
-    height: 100%;
-    background-color: $placeholderCol2Color;
+
+    .social-icon {
+      margin-right: 1.5rem;
+    }
   }
 }
 
