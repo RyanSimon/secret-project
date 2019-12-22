@@ -13,10 +13,34 @@ $font-weight-medium: 500;
 
 body {
   font-family: $mainFontFamily;
+  background-color: $pageBackgroundColor;
+  color: #000;
 }
 
-.body {
-  background-color: $pageBackgroundColor;
+body, html {
+  height: 100%;
+}
+
+.navbar {
+  a {
+    color: #000 !important;
+  }
+
+  a:hover {
+    color: $primaryColor !important;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .phone {
+    color: $primaryColor !important;
+
+    img {
+      margin-right: 0.2rem;
+    }
+  }
 }
 
 .vertical-align-helper {
@@ -68,4 +92,50 @@ body {
 
 .hooked-p:last-child {
   margin-bottom: 0;
+}
+
+.contact-us {
+  height: 40%;
+  background-color: $primaryColor;
+  color: #FFF;
+
+  .header2 {
+    color: #FFF;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact {
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: #FFF;
+      border-bottom: solid 1px #FFF;
+      padding-bottom: 0.05rem;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .social {
+
+    .social-icon {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+.footer {
+  height: 10%;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
 }
