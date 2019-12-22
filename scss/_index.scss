@@ -66,12 +66,28 @@ body {
   .right {
     background-color: $primaryColor;
 
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+
     .process-item {
       margin-bottom: 3rem;
 
       .process-icon {
         margin-top: 0.75rem;
-        text-align: right;
+        margin-bottom: 0.50rem;
+
+        @include media-breakpoint-down(md) {
+          text-align: center;
+        }
+
+        @include media-breakpoint-up(md) {
+          text-align: right;
+        }
       }
 
       .process-desc {

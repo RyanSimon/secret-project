@@ -15,8 +15,6 @@ body {
   font-family: $mainFontFamily;
 }
 
-
-
 .body {
   background-color: $pageBackgroundColor;
 }
@@ -51,6 +49,7 @@ body {
   border-width: 0.08rem;
   text-transform: uppercase;
   padding: 0.60rem 1.25rem;
+  margin-bottom: 0.5rem;
   font-size: 0.75rem;
   color: $primaryColor;
   font-weight: $font-weight-medium;
@@ -65,4 +64,8 @@ body {
 
 .hooked-p {
   margin-bottom: 2rem;
+}
+
+.hooked-p:last-child {
+  margin-bottom: 0;
 }
