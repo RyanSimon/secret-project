@@ -123,6 +123,17 @@ body {
 
   .case-studies-items {
 
+    .left {
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 5rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+      }
+    }
+
     .case-studies-item {
       margin-bottom: 4rem;
 
