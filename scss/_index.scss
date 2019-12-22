@@ -24,7 +24,7 @@
 }
 
 .about-us {
-  background-color: #F2F2F2;
+  background-color: $papiGreyColor;
 
   .about-img {
     text-align: right;
@@ -107,10 +107,13 @@
     .case-studies-item {
       margin-bottom: 4rem;
 
+      .case-study-img-cont {
+        text-align: center;
+      }
+
       .case-study-img {
-        width: 160px;
-        height: 160px;
-        background-color: grey;
+        width: 180px;
+        height: 180px;
       }
 
       .case-study-desc {
