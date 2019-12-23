@@ -118,12 +118,21 @@
         }
 
         @include media-breakpoint-down(sm) {
-          width: 180px;
-          height: 180px;
+          width: 160px;
+          height: 160px;
+          margin-bottom: 0.5rem;
         }
       }
 
       .case-study-desc {
+
+        @include media-breakpoint-down(sm) {
+          text-align: center;
+        }
+
+        @include media-breakpoint-up(sm) {
+          text-align: left;
+        }
 
         .case-study-title {
           font-size: 2rem;
