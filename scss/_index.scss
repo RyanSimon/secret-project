@@ -111,6 +111,16 @@
       .case-study-img {
         width: 180px;
         height: 180px;
+
+        @include media-breakpoint-down(md) {
+          width: 120px;
+          height: 120px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          width: 180px;
+          height: 180px;
+        }
       }
 
       .case-study-desc {
