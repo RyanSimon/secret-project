@@ -3,6 +3,17 @@
 .podcast-header {
   background-color: #ECECEC;
 
+  .podcast-header-hero {
+
+    .podcast-cover {
+
+      @include media-breakpoint-down(md) {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
   .podcast-ctas {
 
     .btn {
