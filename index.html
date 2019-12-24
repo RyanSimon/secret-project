@@ -123,7 +123,7 @@
             <video playsinline muted poster="assets/videos/growth-hacking-video-placeholder.png" id="growth-hacking-video">
                 <source src="assets/videos/growth-hacking-video.mp4" type="video/mp4">
             </video>
-            <a class="play-btn" href="#">
+            <a class="play-btn" id="play-btn">
                 <img class="img-fluid" src="assets/play-button-icon/play-button-icon@2x.png" width="80" height="80" />
             </a>
         </div>
@@ -217,17 +217,24 @@
 
 <!-- <editor-fold desc="Scripts"> -->
 <script type="application/javascript">
-    function typeformPopup() {
-        let qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName,
-            id = "typef_orm_share", b = "https://embed.typeform.com/";
-        if(!gi.call(d,id)) {
-            js=ce.call(d,"script");
-            js.id=id;
-            js.src=b+"embed.js";
-            q=gt.call(d,"script")[0];
-            q.parentNode.insertBefore(js,q)
+    var video = document.getElementById("growth-hacking-video");
+    var playButton = document.getElementById("play-btn");
+    // Event listener for the play/pause button
+    playButton.addEventListener("click", function() {
+        if (video.paused === true) {
+            // Play the video
+            video.play();
+
+            // Update the button text to 'Pause'
+            //playButton.innerHTML = "Pause";
+        } else {
+            // Pause the video
+            video.pause();
+
+            // Update the button text to 'Play'
+            //playButton.innerHTML = "Play";
         }
-    }
+    });
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
