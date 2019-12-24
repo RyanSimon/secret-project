@@ -1,7 +1,8 @@
 @import "base";
 
 .podcast-header {
-  background-color: #ECECEC;
+  background-color: #3A3A3A;
+  color: #FFFFFF;
 
   .podcast-header-hero {
 
@@ -40,6 +41,7 @@
     }
 
     .podcast-episode-title {
+      color: #3A3A3A;
       margin-bottom: 1rem;
     }
   }
