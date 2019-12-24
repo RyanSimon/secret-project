@@ -2,7 +2,10 @@
 
 .hero {
   height: 90vh;
-  background-color: $placeholderRowColor;
+  background-image: url("../assets/hero-placeholder-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   text-align: center;
 
   video {
@@ -15,8 +18,17 @@
   }
 
   .start-cta {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -9rem;
+    width: fit-content;
+  }
+
+  .hero-header {
     position: relative;
-    top: 80%;
+    top: 10%;
+    color: white;
   }
 }
 
@@ -75,10 +87,6 @@
 }
 
 .growth {
-  //background-image: url("../assets/videos/growth-hacking-video-placeholder.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   text-align: center;
 
   .growth-video-container{
