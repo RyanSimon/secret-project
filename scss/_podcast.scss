@@ -25,3 +25,22 @@
     }
   }
 }
+
+.podcast-episodes {
+
+  .podcast-episode {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .podcast-episode-img {
+      margin-bottom: 1rem;
+    }
+
+    .podcast-episode-title {
+      margin-bottom: 1rem;
+    }
+  }
+}
