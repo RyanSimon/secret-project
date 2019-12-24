@@ -120,7 +120,7 @@
 <section class="growth container-fluid d-none d-md-block">
     <div class="row">
         <div class="growth-video-container col-12">
-            <video playsinline muted poster="assets/videos/growth-hacking-video-placeholder.png" id="growth-hacking-video">
+            <video playsinline muted loop poster="assets/videos/growth-hacking-video-placeholder.png" id="growth-hacking-video">
                 <source src="assets/videos/growth-hacking-video.mp4" type="video/mp4">
             </video>
             <a class="play-btn" id="play-btn">
@@ -224,15 +224,7 @@
         if (video.paused === true) {
             // Play the video
             video.play();
-
-            // Update the button text to 'Pause'
-            //playButton.innerHTML = "Pause";
-        } else {
-            // Pause the video
-            video.pause();
-
-            // Update the button text to 'Play'
-            //playButton.innerHTML = "Play";
+            this.hidden = true;
         }
     });
 </script>
