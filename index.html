@@ -37,9 +37,6 @@
                 <a class="nav-link" href="podcast.html">podcast</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">contact us</a>
-            </li>
-            <li class="nav-item">
                 <div class="nav-link phone">
                     <img src="assets/phone-icon/phone-icon@2x.png" width="14" height="24" />
                     (818) 850-0397
@@ -50,12 +47,14 @@
 </nav>
 
 <section class="hero d-none d-md-block">
-    <video playsinline autoplay muted loop poster="assets/hero-placeholder-img.jpg" id="bgvideo">
+    <video playsinline autoplay muted loop poster="assets/hero-placeholder-img.jpg" id="hero-video">
         <source src="assets/videos/papi-digital-hero-video.mp4" type="video/mp4">
     </video>
-    <a href="#" class="start-cta btn">
-        start your growth hacking campaign
-    </a>
+    <a class="typeform-share button start-cta btn"
+       href="https://papidigital.typeform.com/to/g4JnyD"
+       data-mode="popup"
+       data-submit-close-delay="2" target="_blank">start your growth hacking campaign</a>
+    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </section>
 
 <section id="about-us" class="about-us container-fluid">
@@ -70,12 +69,13 @@
             </p>
             <p class="hooked-p">We find and implement fast/cost-effective ways to revenue. Our goal for each company we work with is to generate a positive return on investment as quickly as we can with as little investment as possible.</p>
             <p class="hooked-p">As Growth Hackers our ways to revenue to revenue are not conventional, thus our company is not for the weak-hearted. If you are open to new methods and testing to determine the best return on investment strategies, then you are on the right website.</p>
-            <a href="#" class="btn-outline">
-                start my strategy
-            </a>
+            <a class="typeform-share button btn-outline"
+               href="https://papidigital.typeform.com/to/g4JnyD"
+               data-mode="popup"
+               data-submit-close-delay="2" target="_blank">start my strategy</a>
+            <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         </div>
     </div>
-    <a class="typeform-share button" href="https://ryansimon482625.typeform.com/to/YxSyNO" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Launch me </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </section>
 
 <section id="our-process" class="our-process container-fluid">
@@ -117,10 +117,13 @@
     </div>
 </section>
 
-<section class="growth container-fluid h-50">
-    <div class="row h-100">
-        <div class="col-12 my-auto">
-            <a href="#">
+<section class="growth container-fluid d-none d-md-block">
+    <div class="row">
+        <div class="growth-video-container col-12">
+            <video playsinline muted poster="assets/videos/growth-hacking-video-placeholder.png" id="growth-hacking-video">
+                <source src="assets/videos/growth-hacking-video.mp4" type="video/mp4">
+            </video>
+            <a class="play-btn" href="#">
                 <img class="img-fluid" src="assets/play-button-icon/play-button-icon@2x.png" width="80" height="80" />
             </a>
         </div>
@@ -188,7 +191,11 @@
             <h2 class="header2">contact</h2>
             <p>
                 For inquiries, collaborations, press features, lectures and speaking engagements or to simply say hi,
-                please <a href="#">click here to email us</a>.
+                please <a class="typeform-share button"
+                          href="https://papidigital.typeform.com/to/g4JnyD"
+                          data-mode="popup"
+                          data-submit-close-delay="2" target="_blank">click here to email us</a>.
+                <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>.
             </p>
         </div>
         <div class="social col-md-5 mx-auto my-auto">
@@ -209,6 +216,19 @@
 </section>
 
 <!-- <editor-fold desc="Scripts"> -->
+<script type="application/javascript">
+    function typeformPopup() {
+        let qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName,
+            id = "typef_orm_share", b = "https://embed.typeform.com/";
+        if(!gi.call(d,id)) {
+            js=ce.call(d,"script");
+            js.id=id;
+            js.src=b+"embed.js";
+            q=gt.call(d,"script")[0];
+            q.parentNode.insertBefore(js,q)
+        }
+    }
+</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

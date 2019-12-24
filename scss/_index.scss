@@ -75,11 +75,31 @@
 }
 
 .growth {
-  background-image: url("../assets/hero-placeholder-img.jpg");
+  //background-image: url("../assets/videos/growth-hacking-video-placeholder.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   text-align: center;
+
+  .growth-video-container{
+    padding-top: 23.25%;
+    height: 0;
+    position: relative;
+  }
+
+  #growth-hacking-video {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .play-btn {
+
+  }
 }
 
 .case-studies {
