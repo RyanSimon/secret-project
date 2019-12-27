@@ -2,11 +2,6 @@
 
 .hero {
   height: 90vh;
-  background-image: url("../assets/hero-placeholder-img.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  text-align: center;
 
   video {
     position: absolute;
@@ -16,19 +11,19 @@
     left: 0;
     object-fit: cover;
   }
+}
 
-  .start-cta {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    margin-left: -9rem;
-    width: fit-content;
-  }
+.hero-mobile {
+  background-image: url("../assets/hero-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .4);
+  text-align: center;
 
-  .hero-header {
-    position: relative;
-    top: 10%;
-    color: white;
+  .hero-mobile-header {
+    color: #FFFFFF;
+    margin-bottom: 3rem;
   }
 }
 
