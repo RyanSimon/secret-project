@@ -73,6 +73,11 @@
           font-weight: $font-weight-light;
         }
       }
+
+      .process-item-btn {
+        color: $primaryColor;
+        background-color: #FFF;
+      }
     }
 
     .process-item:first-of-type {
